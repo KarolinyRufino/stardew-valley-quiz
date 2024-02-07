@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(imagens/sv-wallpaper-day.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: 'Inter', sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+main{
+    max-width: 640px;
+    padding: 20px;
+    margin: 0 auto 64px;
+}
+header{
+    margin-top: 64px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #bfc5ce;
+}
+header h1{
+    font-size: 30px;
+    color: #fff;
+}
+.quiz-item{
+    background-color: #FDDBA9;
+    margin-top: 24px;
+    border-radius: 6px;
+    border: 5px  solid #B96E43;
+    outline: 2px solid #502f15ab;
+    box-shadow: inset 2px 4px 6px #814824a4;
+    color: #502f15;
+}
+.quiz-item h3{
+    padding: 16px 20px;
+    color: #502f15de;
+    box-shadow: 1px 1px 3px #B96E43;
+}
+.quiz-item dl{
+    padding: 20px 24px;
+    display: grid;
+    gap: 8px;
+}
+.quiz-item dl dt{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+input {
+    all: unset;
+    border: 1px solid #814824;
+    width: 16px;
+    height: 16px;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input:checked{
+    border: 1px solid #814824;
+}
+input:checked:before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #814824;
+    border-radius: 50%;
+}
+#acertos{
+    background-color: #000000af;
+    color: #ffffff;
+
+    text-align: center;
+    letter-spacing: 0.5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+}
