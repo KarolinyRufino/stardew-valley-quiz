@@ -5,4 +5,4 @@
 <p>
   <a href="https://karolinyrufino.github.io/stardew-valley-quiz/" target="_blank">Deploy</a>
 </p>
-<img src="" alt="print do site Stardew Valley Valley Quiz">
+<img src="assets/imagens/stardew print.jpg" alt="print do site Stardew Valley Valley Quiz">
